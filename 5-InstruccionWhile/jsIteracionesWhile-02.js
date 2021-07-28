@@ -1,10 +1,12 @@
-/*
-al presionar el botón mostrar 10 repeticiones 
-con números DESCENDENTES, desde el 10 al 1.*/
+
 function mostrar()
 {
-	var contador;
-	contador=0; 
-	alert('iteración while');
+	let numero = 11;
+	alert ("esta pagina se autodestruira");
+	while (numero > 1) {
+		numero -= 1
+		alert(numero);
+	}
+alert ("BOOOOOOM");
 
-}//FIN DE LA FUNCIÓN
+}      /*este es un mensaje que se autodestruye, leer rapido */
