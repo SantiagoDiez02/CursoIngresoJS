@@ -34,7 +34,7 @@ function mostrar() {
 	do {
 		nombre = prompt("ingrese un nombre");
 
-		sexo = prompt("sexo no valido, (m/f)").toLowerCase();
+		sexo = prompt("ingrese su sexo, (m/f)").toLowerCase();
 		while (sexo != "m" && sexo != "f") {
 			sexo = prompt("sexo no valido, (m/f)").toLowerCase();
 		}
@@ -48,7 +48,7 @@ function mostrar() {
 		}
 
 		temperatura = parseInt(prompt("ingrese la temperatura (entre 30 y 40"));
-		while (isNaN(temperatura) || temperatura < 30 && temperatura > 40) {
+		while ( temperatura < 30 && temperatura > 40) {
 			temperatura = parseInt(prompt("temperatura no valida"));
 		}
 		if (flag || temperatura > maxTemp) {

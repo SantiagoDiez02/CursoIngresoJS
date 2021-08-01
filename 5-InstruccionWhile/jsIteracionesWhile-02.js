@@ -2,11 +2,11 @@
 function mostrar()
 {
 	let numero = 11;
-	alert ("esta pagina se autodestruira");
+	document.write ("esta pagina se autodestruira <br>");
 	while (numero > 1) {
 		numero -= 1
-		alert(numero);
+		document.write(numero + "<br>");
 	}
-alert ("BOOOOOOM");
+document.write ("BOOOOOoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooOM");
 
 }      /*este es un mensaje que se autodestruye, leer rapido */
